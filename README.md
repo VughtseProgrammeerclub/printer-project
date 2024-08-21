@@ -13,7 +13,7 @@ Printen met een MTP401-G256.
 * https://www.eeworldonline.com/thermal-printers-part-4-components-and-circuitry-faq/
 
 ## Hardware driver
-In de documentatie worden twee hardware drivers voor de thermische printkop genomed. Deze drivers bestaan in feite uit 8 versterkers die het signaal uit de processor geschikt maken. 
+In de documentatie worden twee hardware drivers voor de thermische printkop genoemd. Deze drivers bestaan in feite uit 8 transistorversterkers die het signaal uit de processor geschikt maken voor de printkop. 
 * LB1257 (aanbevolen)
 
    Ik heb de datasheet toegevoegd en vier van deze ic's besteld (https://www.okaphone.com/artikel.xhtml?id=481770)
