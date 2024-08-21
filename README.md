@@ -14,5 +14,6 @@ Printen met een MTP401-G256.
 
 ## Hardware driver
 In de documentatie worden twee hardware drivers voor de thermische printkop genomed. Deze drivers bestaan in feite uit 8 versterkers die het signaal uit de processor geschikt maken. 
-* LB1256
-  Ik heb de datasheet toegevoegd en een paar van deze ic's besteld (https://www.okaphone.com/artikel.xhtml?id=481770)
+* LB1257 (aanbevolen)
+
+   Ik heb de datasheet toegevoegd en vier van deze ic's besteld (https://www.okaphone.com/artikel.xhtml?id=481770)
