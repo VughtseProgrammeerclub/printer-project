@@ -18,3 +18,6 @@ In de documentatie worden de hardware drive LB1257 voor de thermische printkop g
   
 Alternatief:
 - **ULN 2803 en ULN 2804**: Deze zijn beter beschikbaar. Hiervan heb ik een paar exemplaren besteld via hackerstore.nl. Hiervan heb ik ook een datsheet toegevoegd
+
+## Spreadsheet om pulslengte te berekenen
+https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
