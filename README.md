@@ -22,6 +22,7 @@ Alternatief:
 ## Spreadsheet om pulslengte te berekenen
 https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
 
+![logo vpc](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/vughtse%20programmeer%20club%20-%20logo.png)
 # Clubvond 3-9-2024
 ## Programma
 * Ervaringen
@@ -30,3 +31,4 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Maker Days Eindhoven 13, 14 en 15 september
 
 # Naar een printje voor het printerproject
+* 
