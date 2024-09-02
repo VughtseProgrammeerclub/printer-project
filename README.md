@@ -44,7 +44,7 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Koppelen aan Arduino
 * Bepalen aantal pulsen voor heen-en-weerbeweging
   
-* Printen!
+## Printen!
 * ![Formule pulslengte](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectFormule.png)
 * ![Afleiding formule](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/formules.png)
 * Spreadsheet: https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
@@ -58,4 +58,4 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Hoe werkt de eindschakelaar op Pico en Arduino?
 * Voeding 5 Volt voor printer en eventueel Arduino
 * Hoe zit het dan met Pico (ESP32?)
-* Poistie printplaat t.o.v. printerloopwerk?
+* Positie printplaat t.o.v. printerloopwerk?
