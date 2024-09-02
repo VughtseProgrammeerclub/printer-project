@@ -52,4 +52,10 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * 8-input transistor array
 * ![Besturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
 * LB1257: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/LB1257.pdf
-* ULN
+* ULN2803: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/ULN%202801%202802%202803%202804.pdf
+
+## Printplaat
+* Hoe werkt de eindschakelaar op Pico en Arduino?
+* Voeding 5 Volt voor printer en eventueel Arduino
+* Hoe zit het dan met Pico (ESP32?)
+* Poistie printplaat t.o.v. printerloopwerk?
