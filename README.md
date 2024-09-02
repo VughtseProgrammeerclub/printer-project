@@ -31,28 +31,28 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Maker Days Eindhoven 13, 14 en 15 september
 
 # Naar een printje voor het printerproject
-* **Motor, eindschakelaar en tacho**
-* **Motor:** geen verschil gedrag printer plus en min
-* **Eindschakelaar:** Als printerkop in beginpositie staat is schakelaar open.
-* ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/vpc%20-%20printerproject%20schema.JPG)
+- **Motor, eindschakelaar en tacho**
+  - **Motor:** geen verschil gedrag printer plus en min
+  - **Eindschakelaar:** Als printerkop in beginpositie staat is schakelaar open.
+    ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/vpc%20-%20printerproject%20schema.JPG)
 
-* **Tacho:** Geeft geen pulsen maar sinusvormig signaal (demo)
-* ![tachosignaal](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaal.jpg)
-* ![tachosignaal omzetten](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaalOmzetten.jpg)
-* Demo opengewerkte motor met tachogenerator
+- **Tacho:** Geeft geen pulsen maar sinusvormig signaal (demo)
+  - ![tachosignaal](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaal.jpg)
+  - ![tachosignaal omzetten](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaalOmzetten.jpg)
+  - Demo opengewerkte motor met tachogenerator
 
-* Koppelen aan Arduino
-* Bepalen aantal pulsen voor heen-en-weerbeweging
+  - Koppelen aan Arduino
+  - Bepalen aantal pulsen voor heen-en-weerbeweging
   
 ## Printen!
-* ![Formule pulslengte](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectFormule.png)
-* ![Afleiding formule](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/formules.png)
-* Spreadsheet: https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
-* https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png
-* 8-input transistor array
-* ![Besturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
-* LB1257: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/LB1257.pdf
-* ULN2803: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/ULN%202801%202802%202803%202804.pdf
+- ![Formule pulslengte](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectFormule.png)
+- ![Afleiding formule](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/formules.png)
+- Spreadsheet: https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
+- https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png
+- 8-input transistor array
+  - ![Besturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
+  - LB1257: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/LB1257.pdf
+  - ULN2803: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/ULN%202801%202802%202803%202804.pdf
 
 ## Printplaat
 * Hoe werkt de eindschakelaar op Pico en Arduino?
