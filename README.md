@@ -32,6 +32,9 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 
 # Naar een printje voor het printerproject
 * **Motor, eindschakelaar en tacho**
-* ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectConnector.png)
-* Motor: geen verschil gedrag printer plus en min
-* Eindschakelaar: Als printerkop in beginpositie staat is schakelaar open.
+* **Motor:** geen verschil gedrag printer plus en min
+* **Eindschakelaar:** Als printerkop in beginpositie staat is schakelaar open.
+* ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/vpc%20-%20printerproject%20schema.JPG)
+
+* **Tacho:** Geeft geen pulsen maar sinusvormig signaal (demo)
+* 
