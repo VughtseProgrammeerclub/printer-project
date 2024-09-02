@@ -45,4 +45,4 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Bepalen aantal pulsen voor heen-en-weerbeweging
 
 * Printen!
-* 
+* ![Formule pulslengte](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectFormule.png)
