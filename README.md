@@ -37,4 +37,12 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/vpc%20-%20printerproject%20schema.JPG)
 
 * **Tacho:** Geeft geen pulsen maar sinusvormig signaal (demo)
+* ![tachosignaal](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaal.jpg)
+* ![tachosignaal omzetten](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectTachosignaalOmzetten.jpg)
+* Demo opengewerkte motor met tachogenerator
+
+* Koppelen aan Arduino
+* Bepalen aantal pulsen voor heen-en-weerbeweging
+
+* Printen!
 * 
