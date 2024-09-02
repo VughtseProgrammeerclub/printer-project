@@ -43,9 +43,11 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 
 * Koppelen aan Arduino
 * Bepalen aantal pulsen voor heen-en-weerbeweging
-
+  
 * Printen!
 * ![Formule pulslengte](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectFormule.png)
 * ![Afleiding formule](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/formules.png)
 * Spreadsheet: https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
-* 
+* https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png
+* 8-input transistor array
+* ![Beturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
