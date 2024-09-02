@@ -50,4 +50,6 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Spreadsheet: https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl7HU/edit?usp=sharing
 * https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png
 * 8-input transistor array
-* ![Beturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
+* ![Besturing kop](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectStuursignaalKop.png)
+* LB1257: https://github.com/VughtseProgrammeerclub/printer-project/blob/main/LB1257.pdf
+* ULN
