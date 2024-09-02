@@ -31,7 +31,7 @@ https://docs.google.com/spreadsheets/d/15NiBSNJHw0S57qPAjDkXndj6-DcM1xwRnpWNPoLl
 * Maker Days Eindhoven 13, 14 en 15 september
 
 # Naar een printje voor het printerproject
-* Motor, eindschakelaar en tacho
+* **Motor, eindschakelaar en tacho**
 * ![connector](https://github.com/VughtseProgrammeerclub/printer-project/blob/main/printerprojectConnector.png)
 * Motor: geen verschil gedrag printer plus en min
-* 
+* Eindschakelaar: Als printerkop in beginpositie staat is schakelaar open.
