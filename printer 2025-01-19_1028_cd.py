@@ -172,6 +172,18 @@ def letter_P():
         "......",
     ]
 
+def letter_Q():
+    return [
+        ".XXX..",
+        "X...X.",
+        "X...X.",
+        "X...X.",
+        "X...X.",
+        ".XXX..",
+        "....X.",
+        "......",
+    ]
+
 def letter_V():
     return [
         "X...X.",
@@ -251,6 +263,7 @@ def print_text(text):
         'M': letter_M,
         'O': letter_O,
         'P': letter_P,
+        'Q': letter_Q,
         'V': letter_V,
         'W': letter_W,
         ' ': space,
