@@ -5,6 +5,10 @@
 
 # De schakelaar op de print staat in de stand 11. Dit betekent dat de motor start als er een puls wordt gegeven op GPIO 11,
 # Als de motor draait krijgt deze de voeding via het verbreekcontact van het printerloopwerk. De motor stopt dus automatisch.
+
+# Druk op een van de 3 knoppen, onderste = STEEN / middelste = PAPIER / bovenste = SCHAAR
+# De printer maakt zin keuze
+# Je winst of verliest of speelt gelijk
 import machine
 import time
 import random
@@ -29,13 +33,13 @@ for pin in [pin_2, pin_3, pin_4, pin_5, pin_6, pin_7, pin_8, pin_9]:
 motor_pin = machine.Pin(11, machine.Pin.OUT)
 motor_pin.off()  # Zorg ervoor dat de motor bij aanvang uit staat
 
-# Configureer de startknop op GPIO 13
+# Configureer de eerste knop STEEEN op GPIO 13
 button_rood = machine.Pin(13, machine.Pin.IN, machine.Pin.PULL_DOWN)
 
-# Configureer de startknop op GPIO 15
+# Configureer de derde knop SCHAAR op GPIO 15
 button_blauw = machine.Pin(15, machine.Pin.IN, machine.Pin.PULL_DOWN)
 
-# Configureer de paperfeed-knop op GPIO 14
+# Configureer de middelste knop PAPIER op GPIO 14
 button_wit = machine.Pin(14, machine.Pin.IN, machine.Pin.PULL_DOWN)
 
 # Timing- en statusvariabelen
@@ -330,6 +334,7 @@ def uit():
         "......",
     ]
 
+# het spel STEEN/PAPIER/SCHAAR bepalen
 def SPEL(knop):
     if knop == computer_keuze:
         print_text("HET IS GELIJKSPEL!")
@@ -443,7 +448,7 @@ while True:
     current_time = time.time()
     mogelijkheden = ['STEEN', 'PAPIER', 'SCHAAR']
     computer_keuze = random.choice(mogelijkheden)
-    # Controleer of de startknop is ingedrukt
+    # Controleer welke knop is ingedrukt
     if button_rood.value() == 1 and current_time - last_button_press > button_debounce_time:
         last_button_press = current_time  # Update de tijd van de laatste knopdruk
         keuze = "STEEN"
@@ -504,10 +509,7 @@ while True:
         time.sleep(0.05)
         motor_pin.off()
         SPEL(keuze)
-
-        # Print de tekst 'SCHAAR'
-        #print_text("SCHAAR")
-        
+       
     if button_wit.value() == 1 and current_time - last_button_press > button_debounce_time:
         last_button_press = current_time  # Update de tijd van de laatste knopdruk
         keuze = "PAPIER"
@@ -538,12 +540,5 @@ while True:
         motor_pin.off()
         SPEL(keuze)
 
-        # Print de tekst 'PAPIER'
-        #print_text("PAPIER")
-        
-    # Controleer of de paperfeed-knop is ingedrukt
-    #if paperfeed_button.value() == 1:
-    #    motor_pin.on()
-        #print("Paperfeed actief")
     else:
         motor_pin.off()
